@@ -11,6 +11,9 @@ The goal was to achieve full end‑to‑end connectivity between two PCs:
 
 **PC1 → R1 → R2 → R3 → R4 → PC2**
 
+<img width="975" height="248" alt="image" src="https://github.com/user-attachments/assets/5d125e64-b9d1-4530-95bd-37a553f53b06" />
+
+
 Each router used a different subnet, and OSPF dynamically learned all routes.  
 The final objective was for **PC1 to successfully ping PC2 (10.0.4.10)**.
 
